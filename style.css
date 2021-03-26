@@ -180,7 +180,6 @@ h3 {
       flex: 1 30%;
       color: #024e76;
       font-size: 46px;
-      margin-top: 10px;
   }
 
   .step-text h4 {
@@ -189,6 +188,10 @@ h3 {
       font-size: 26px;
   }
 
+  .step-text p {
+      color: #39a6b2;
+      font-size: 18px;
+  }
 .trainer {
     margin: 20px;
     background: #024e76;
@@ -289,6 +292,9 @@ h3 {
 
   .step-info {
       flex: 2 70%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
   }
 
   .step-img {
